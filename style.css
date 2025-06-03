@@ -1,0 +1,54 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 2rem;
+  background-color: #f7f7f7;
+  color: #333;
+}
+  
+  h1 {
+    color: #2c3e50;
+  }
+  
+  form {
+    margin-bottom: 1rem;
+  }
+  
+  input, button {
+    margin: 0.2rem;
+    padding: 0.5rem;
+  }
+  
+  button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #2980b9;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+  }
+  
+  th, td {
+    border: 1px solid #ccc;
+    padding: 0.5rem;
+    text-align: left;
+  }
+  
+  .stock-bajo {
+  background-color: #ffdddd;
+  color: #a10000;
+  font-weight: bold;
+
+  .stock-bajo td:nth-child(5) {
+  color: #e60000;
+  font-weight: bold;
+  }
+
+}
